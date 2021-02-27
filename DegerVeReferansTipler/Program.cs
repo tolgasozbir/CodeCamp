@@ -18,6 +18,8 @@ namespace DegerVeReferansTipler
             sayilar2[0] = 999;
             //sayilar[0] ekrana yazarsak kaç çıkar?       999
 
+            //aaa
+
 
             Console.ReadKey();
         }
