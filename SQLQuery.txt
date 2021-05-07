@@ -1,0 +1,31 @@
+﻿--Select ContactName Adi,CompanyName SirketAdi, City Sehir from Customers (verilen tabloların adını değiştirerek gösterir)
+
+--Select * from Customers where City ='Berlin'		(customers tablosundaki sehiri berlin olanları göster)
+
+--Select * from Products where CategoryID=1 or CategoryID=3		(product tablosundaki kategori idsi 1 veya 3 olanları göster)
+
+--Select * from Products where CategoryID=1 and UnitPrice>=10	(categori idsi 1 olanları ve birim miktarı fiyatı 10 ve büyük olanları göster)
+
+--select * from Products order by CategoryID,ProductName		(kategoriidye göre sırala sonra productName göre sırala  1,a)
+
+--select * from Products order by UnitPrice desc				(en yüksek fiyattan en düşüğe göre sırala)
+
+--select * from Products where CategoryID=1 order by UnitPrice desc		(product tablosundaki kategori idsi 1 olanların birim miktar fiyatını en yüksekten en düşüğe sırala)
+
+--select COUNT(*) from Products			product tablosundaki data sayısı (ürün sayısını verir)
+
+--select COUNT(*) from Products where CategoryID=2 (2 numaralı kategori idsinde kaç ürün var )
+
+--select CategoryID,COUNT(*) from Products group by CategoryID (Hangi kategoride kaç ürün var)
+
+--select CategoryID,count(*) from Products group by CategoryID having COUNT(*)<10      --(ürün sayısı 10 dan az olan kategorileri listele)
+
+--select CategoryID,count(*) from Products where UnitPrice>20
+--group by CategoryID having COUNT(*)<10           (birim miktar fiyatı 20den büyük olan, ve miktarı 10 dan küçük olanları listele kategoriye göre)
+
+
+
+
+
+
+
